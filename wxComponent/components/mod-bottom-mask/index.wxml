@@ -1,0 +1,10 @@
+<view animation="{{maskAnimationData}}" bind:tap="closeMask" class="mask {{!showValue ? 'dsn' : ''}}"></view>
+<view animation="{{contentAnimationData}}" class="mask-content {{!showValue ? 'dsn' : ''}}">
+    <!-- 关闭按钮 -->
+    <image class="close-icon" src="/common/images/close.svg" bind:tap="closeMask" />
+    <slot name="content"></slot>
+</view>
+
+<view bind:tap="showMask">
+    <slot name="show"></slot>
+</view>

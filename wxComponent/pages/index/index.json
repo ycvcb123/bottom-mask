@@ -1,0 +1,6 @@
+{
+    "disableScroll": true,
+    "usingComponents": {
+        "mod-bottom-mask": "/components/mod-bottom-mask/index"
+    }
+}

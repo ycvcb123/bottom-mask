@@ -1,0 +1,91 @@
+.mask {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+    position: fixed;
+    z-index: 11;
+}
+
+.mask-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12rpx 12rpx 0rpx 0rpx;
+    z-index: 12;
+    transform: translate3d(0, 100%, 0);
+    /* transform: translateY(712rpx); */
+}
+
+.close-icon {
+    padding: 10rpx;
+    position: relative;
+    width: 28rpx;
+    height: 28rpx;
+    z-index: 2;
+    left: 679rpx;
+    top: 28rpx;
+}
+
+
+/* .out-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 52rpx;
+    position: relative;
+    font-family: PingFangSC-Medium;
+    font-size: 48rpx;
+    color: #38383c;
+}
+
+.tip-info {
+    width: 100%;
+    margin-top: 52rpx;
+    text-align: center;
+    font-size: 30rpx;
+    font-family: PingFangSC-Regular;
+    color: #9b9ba1;
+}
+
+.button-content {
+    margin-top: 52rpx;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-left {
+    width: 320rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    background-color: #ffffff;
+    border-radius: 6rpx;
+    border: solid 2rpx #e5e5e5;
+    font-family: PingFangSC-Medium;
+    font-size: 30rpx;
+    color: #38383c;
+    text-align: center;
+    margin-right: 15rpx;
+}
+
+.button-right {
+    width: 320rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    background-color: #08cd8a;
+    border-radius: 6rpx;
+    border: solid 2rpx #08cd8a;
+    font-family: PingFangSC-Medium;
+    font-size: 30rpx;
+    color: #fff;
+    text-align: center;
+    margin-left: 15rpx;
+} */
+
+.dsn {
+    display: none;
+}

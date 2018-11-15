@@ -1,0 +1,4 @@
+<mod-bottom-mask>
+    <view slot="content" class='content'>Demo content</view>  
+    <view slot="show" class='show'>show mask</view>  
+</mod-bottom-mask>
